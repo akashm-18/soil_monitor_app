@@ -1,0 +1,36 @@
+.navbar {
+    background-color: rgb(109, 106, 106);
+    max-height: 64px;
+    height: 50px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 3rem;
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-right: 3rem;
+}
+
+.list-item {
+    text-decoration: none;
+    color: black;
+}
+
+
+.list-item-logout {
+    background-color: black;
+    padding: 6px;
+    border-radius: 3rem;
+    text-decoration: none;
+    color: white;
+}
